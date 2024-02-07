@@ -31,33 +31,67 @@ p {
 /* Structure styles */
 
 .header,
-.website-awesome {
+.website-awesome,
+.first-flex,
+.random-info {
     display: flex;
     align-items: center;
+    gap: 24px;
     width: 950px;
 }
 
 .header {
-    gap: 24px;
     margin: 20px;
 }
 
 .website-awesome {
-    gap: 24px;
-    height: 400px;
+    height: 450px;
 }
 
 .first-flex {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.random-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    box-sizing: border-box;
+    height: 450px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.second-flex {
+    display: flex;
     gap: 24px;
+}
+
+.illustration img {
+    height: auto;
+    width: 200px;
+    border-radius: 12px;
+}
+
+.illustration {
+    height: auto;
+    width: 200px;
+    text-align: center;
 }
 
 /* Colors and font styles */
 
 .dark-background-color {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: #1F2937;
 }
 
