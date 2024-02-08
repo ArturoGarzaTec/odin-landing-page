@@ -34,14 +34,16 @@ p {
 .website-awesome,
 .first-flex,
 .random-info,
-.inspiring-quote {
+.inspiring-quote,
+.call-action {
     display: flex;
     align-items: center;
     gap: 24px;
     width: 950px;
 }
 
-.header {
+.header,
+.footer {
     margin: 20px;
 }
 
@@ -93,6 +95,21 @@ p {
     height: 450px;
 }
 
+.content.short {
+    justify-content: center;
+    height: 350px;
+}
+
+.call-action {
+    justify-content: space-around;
+    border-radius: 12px;
+    height: 160px;
+}
+
+.call-action button {
+    border: solid 2px white;
+}
+
 /* Colors and font styles */
 
 .dark-background-color {
@@ -129,6 +146,10 @@ p {
     color: black;
     margin-right: 0px;
     margin-left: auto;
+}
+
+.call-action div .header-logo-txt {
+    margin: 0px;
 }
 
 .blue-background-color {
